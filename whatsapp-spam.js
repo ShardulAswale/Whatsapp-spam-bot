@@ -23,5 +23,5 @@ async function enviarScript(scriptText){
 }
 
 enviarScript(`
-spam long text 
+////spam long text 
 `).then(e => console.log(`Código finalizado, ${e} mensagens enviadas`)).catch(console.error)
